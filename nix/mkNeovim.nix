@@ -168,6 +168,10 @@ with lib;
       # Set the LIBSQLITE environment variable if sqlite is enabled
       ++ (optional withSqlite
         ''--set LIBSQLITE "${pkgs.sqlite.out}/lib/libsqlite3.so"'')
+      # Ensure xclip is in PATH
+      ++ [
+        ''--prefix PATH : "${pkgs.xclip}/bin"''
+        ]
     );
 
     luaPackages = neovim-unwrapped.lua.pkgs;
