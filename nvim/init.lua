@@ -105,3 +105,6 @@ vim.g.sqlite_clib_path = require('luv').os_getenv('LIBSQLITE')
 -- set colorscheme
 vim.o.background = "dark"
 vim.cmd('colorscheme gruvbox')
+
+-- enable system clipboard
+vim.opt.clipboard = 'unnamedplus'
