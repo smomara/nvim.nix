@@ -120,4 +120,4 @@ vim.g.clipboard = {
   cache_enabled = 1
 }
 
-vim.o.clipboard = 'unnamedplus'
+vim.opt.clipboard.append('unnamedplus')
