@@ -91,6 +91,7 @@ with final.pkgs.lib; let
     lua-language-server
     nil # nix LSP
     xclip
+    haskell-language-server
   ];
 in {
   # This is the neovim derivation
