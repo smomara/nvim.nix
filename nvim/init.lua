@@ -121,3 +121,5 @@ vim.g.clipboard = {
 }
 
 vim.opt.clipboard = 'unnamedplus'
+
+cmd[[highlight Normal guibg=NONE ctermbg=NONE]]
