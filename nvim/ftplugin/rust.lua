@@ -1,4 +1,4 @@
-local rust_analyzer_cmd = 'rust_analyzer'
+local rust_analyzer_cmd = 'rust-analyzer'
 
 if vim.fn.executable(rust_analyzer_cmd) ~= 1 then
   vim.notify('rust-analyzer not found. Please install it.', vim.log.levels.WARN)
