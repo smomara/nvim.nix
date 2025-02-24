@@ -92,6 +92,7 @@ with final.pkgs.lib; let
     nil # nix LSP
     xclip
     haskell-language-server
+    verible
   ];
 in {
   # This is the neovim derivation
