@@ -12,6 +12,11 @@
     #   url = "github:Cassin01/wf.nvim";
     #   flake = false;
     # };
+
+    lean-nvim = {
+      url = "github:Julian/lean.nvim";
+      flake = false;
+    };
   };
 
   outputs = inputs @ {
@@ -51,6 +56,8 @@
           nil
           stylua
           luajitPackages.luacheck
+          lean4
+          elan
         ];
         shellHook = ''
           # symlink the .luarc.json generated in the overlay

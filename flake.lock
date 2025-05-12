@@ -119,6 +119,22 @@
         "type": "github"
       }
     },
+    "lean-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1747049611,
+        "narHash": "sha256-+9F3dY6L3I/2BGOzAVsU0bh0iHlDgGIe8UB6YmcRTRg=",
+        "owner": "Julian",
+        "repo": "lean.nvim",
+        "rev": "a5e73e37324e611ec6862a075167eed95af20ec2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Julian",
+        "repo": "lean.nvim",
+        "type": "github"
+      }
+    },
     "luvit-meta": {
       "flake": false,
       "locked": {
@@ -199,6 +215,7 @@
       "inputs": {
         "flake-utils": "flake-utils",
         "gen-luarc": "gen-luarc",
+        "lean-nvim": "lean-nvim",
         "nixpkgs": "nixpkgs_2"
       }
     },

@@ -84,6 +84,9 @@ with final.pkgs.lib; let
 
     # ^ colorscheme
     gruvbox-nvim
+
+    # Lean 4
+    lean-nvim
   ];
 
   extraPackages = with pkgs; [
@@ -93,6 +96,9 @@ with final.pkgs.lib; let
     xclip
     haskell-language-server
     verible
+
+    lean4 # lean 4
+    elan # lean version manager
   ];
 in {
   # This is the neovim derivation
